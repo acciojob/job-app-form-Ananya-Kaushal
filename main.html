@@ -10,7 +10,42 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<div id="container">
+		<form>
+			<label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+			<br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email ID.." required>
+			<br>
+			<label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="male" required>Male
+			<input type="radio" id="gender" name="gender" value="female" required>Female
+			<input type="radio" id="gender" name="gender" value="others" required>Others
+            <br>
+			<label for="laptop_brands">Laptop Brands</label>
+            <select  id="">
+				<option value="apple">Apple</option>
+                <option value="asus">Asus</option>
+                <option value="HP">HP</option>
+				<option value="toshiba">Toshiba</option>
+			</select>
+			<br>
+			<label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Your age.." required>
+			<br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" placeholder="Your Date of Birth.." required>
+			<br>
+			<label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Your password.." required>
+			<br>
+            <label for="portfolio">Portfolio URL</label>
+            <input type="url" id="portfolio" name="portfolio" placeholder="Your portfolio url.." required>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
 </body>
 
 </html>
